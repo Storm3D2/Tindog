@@ -1,0 +1,185 @@
+body {
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    position: relative;
+    z-index: 1;
+    top: 40%;
+    left: 30%;
+}
+
+.heart {
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.checkcircle {
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.bullseye {
+    color: #ef8172;
+    font-size: 3.5rem;
+    margin: 0 auto;
+}
+
+.feature {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.fa-circle-check:hover {
+    color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+    color: #ff4c68;
+}
+
+.fa-heart:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* font-family: "Ubuntu",
+sans-serif; */
+
+.testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+}
+
+.ic {
+    padding: 1%;
+    margin-bottom: 1%;
+}
